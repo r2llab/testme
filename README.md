@@ -15,7 +15,7 @@ The program must meeting the following specification:
 - It takes two arguments, the first is `dinput`, the directory containing the input data. The second is `doutput`, the directory into which the submission program writes output
 
 During evaluation:
-- The program directory will be mounted to `/src`
+- The program directory will be mounted to `/src`, where it will be run from
 - The input data will be mounted to `dinput`
 - The program will write data to `doutput`
 
@@ -61,7 +61,7 @@ cd evalprogram; docker build -t myeval:0.01 -f Dockerfile; cd ..
 docker run --rm -v $PWD/myprogram:/src -v $PWD/dsample_data:/input -v $PWD/tmp/out:/output mysubmission:0.01 bash /src/run.sh /input /output
 
 # run the evaluation program on the output result
-docker run --rm -v $PWD/evalprogram:/src -v $PWD/dsample_data:/input -v $PWD/tmp/out:/output -v $PWD/tmp/eval:/eval mysubmission:0.01 bash /src/run.sh /input /output /eval
+docker run --rm -v $PWD/evalprogram:/src -v $PWD/dsample_data:/input -v $PWD/tmp/out:/output -v $PWD/dgold:/gold -v $PWD/tmp/eval:/eval mysubmission:0.01 bash /src/run.sh /input /output /gold /eval
 ```
 
 The final result should be located in `./tmp/eval`.
