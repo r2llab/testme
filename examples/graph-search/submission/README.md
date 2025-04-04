@@ -25,6 +25,7 @@ During evaluation, we will give your program different queries.
 Please implement `myprogram.py`.
 The starter code runs each search algorithm (you have to implement them) and write out the traversal path to the output directory.
 Please break ties using the provided `tie_break` function, which breaks ties alphabetically.
+To implement A* search, please use the provided `heuristic` function.
 
 Your submission must adhere to the [TestMe API](https://github.com/r2llab/testme).
 In addition, please include a file in your submission (e.g. `user.txt`) that contains your UserID.
@@ -68,7 +69,7 @@ docker run --rm -v $PWD/submit:/src -v $PWD/../sample/data:/input -v $PWD/tmp/ou
 docker run --rm -v $PWD/../eval:/src -v $PWD/../sample/data:/input -v $PWD/tmp/output:/output -v $PWD/../sample/gold:/gold -v $PWD/tmp/eval:/eval testme-example-eval:0.1 bash run.sh /input /output /gold /eval
 ```
 
-The evaluation output will be stored in `tmp/eval/eval.txt`.
+The evaluation output will be stored in `tmp/eval`.
 
 During development, you can also mount your current directory as `/src` as you edit `myprogram.py` to generate predictions.
 However, to avoid submission errors, please do a final check by mounting `submit` to `/src`.
