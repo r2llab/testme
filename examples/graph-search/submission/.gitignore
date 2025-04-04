@@ -1,0 +1,4 @@
+tmp/
+submit/
+*.zip
+*.py[cod]
