@@ -28,7 +28,7 @@ A TestMe **evaluation** by a **grader** consists of:
 - A **Docker file** to build the environment in which the evaluation program can run
 
 The evaluation program must meeting the following specification:
-- It contains an **entrypoint script** `run.sh dinput doutput` which executes the program
+- It contains an **entrypoint script** `run.sh dinput doutput dgold deval` which executes the program
 - It takes fourth arguments, the first is  `dinput`, the directory containing the input data. The second is `doutput`, the directory containing the submission program's output. The third is `dgold`, the directory containing the ground truth data. The fourth is `deval`, the directory into which the evaluation program writes the evaluation result
 
 
