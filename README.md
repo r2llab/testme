@@ -69,7 +69,8 @@ The final result should be located in `./tmp/eval`.
 
 ## Example
 
-An example of how to use TestMe for submission and for evaluation in `./example`.
+Example of how to use TestMe for submission and for evaluation in `./examples`.
+The introduction example is `./examples/next-char`.
 
 
 ## Considerations for the Grader
