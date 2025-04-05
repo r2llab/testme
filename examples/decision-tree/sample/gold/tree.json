@@ -1,0 +1,45 @@
+{
+  "feature": "root",
+  "value": true,
+  "info_gain": 0,
+  "children": {
+    "length_long=True": {
+      "feature": "length_long",
+      "value": true,
+      "info_gain": 0.5819765115539189,
+      "children": {}
+    },
+    "length_long=False": {
+      "feature": "length_long",
+      "value": false,
+      "info_gain": 0.5819765115539189,
+      "children": {
+        "thread_new=True": {
+          "feature": "thread_new",
+          "value": true,
+          "info_gain": 0.320402072002678,
+          "children": {}
+        },
+        "thread_new=False": {
+          "feature": "thread_new",
+          "value": false,
+          "info_gain": 0.320402072002678,
+          "children": {
+            "author=True": {
+              "feature": "author",
+              "value": true,
+              "info_gain": 1.0,
+              "children": {}
+            },
+            "author=False": {
+              "feature": "author",
+              "value": false,
+              "info_gain": 1.0,
+              "children": {}
+            }
+          }
+        }
+      }
+    }
+  }
+}

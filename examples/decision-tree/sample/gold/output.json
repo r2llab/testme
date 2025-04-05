@@ -1,0 +1,407 @@
+[
+  {
+    "W1a": [
+      "ant",
+      "big",
+      "bus",
+      "car",
+      "has"
+    ],
+    "W1d": [
+      "book",
+      "buys",
+      "hold",
+      "lane",
+      "year"
+    ],
+    "W2d": [
+      "ginger",
+      "search",
+      "syntax",
+      "symbol"
+    ],
+    "W3a": [
+      "book",
+      "buys",
+      "hold",
+      "lane",
+      "year"
+    ],
+    "W4a": [
+      "ant",
+      "big",
+      "bus",
+      "car",
+      "has"
+    ]
+  },
+  {
+    "W1a": [
+      "ant",
+      "big",
+      "bus",
+      "car",
+      "has"
+    ],
+    "W1d": [
+      "book",
+      "buys",
+      "hold",
+      "lane",
+      "year"
+    ],
+    "W2d": [
+      "ginger",
+      "search",
+      "syntax"
+    ],
+    "W3a": [
+      "book",
+      "buys",
+      "hold",
+      "lane",
+      "year"
+    ],
+    "W4a": [
+      "ant",
+      "big",
+      "bus",
+      "car",
+      "has"
+    ]
+  },
+  {
+    "W1a": [
+      "ant",
+      "big",
+      "bus",
+      "car",
+      "has"
+    ],
+    "W1d": [
+      "book",
+      "buys",
+      "hold",
+      "lane",
+      "year"
+    ],
+    "W2d": [
+      "ginger",
+      "search",
+      "syntax"
+    ],
+    "W3a": [
+      "lane",
+      "year"
+    ],
+    "W4a": [
+      "ant",
+      "big",
+      "bus",
+      "car",
+      "has"
+    ]
+  },
+  {
+    "W1a": [
+      "big",
+      "bus",
+      "has"
+    ],
+    "W1d": [
+      "book",
+      "buys",
+      "hold",
+      "lane",
+      "year"
+    ],
+    "W2d": [
+      "ginger",
+      "search",
+      "syntax"
+    ],
+    "W3a": [
+      "lane",
+      "year"
+    ],
+    "W4a": [
+      "ant",
+      "big",
+      "bus",
+      "car",
+      "has"
+    ]
+  },
+  {
+    "W1a": [
+      "big",
+      "bus",
+      "has"
+    ],
+    "W1d": [
+      "book",
+      "buys",
+      "hold",
+      "lane",
+      "year"
+    ],
+    "W2d": [
+      "ginger",
+      "search",
+      "syntax"
+    ],
+    "W3a": [
+      "lane",
+      "year"
+    ],
+    "W4a": [
+      "ant",
+      "big",
+      "bus",
+      "car",
+      "has"
+    ]
+  },
+  {
+    "W1a": [
+      "big",
+      "bus",
+      "has"
+    ],
+    "W1d": [
+      "book",
+      "buys",
+      "hold",
+      "lane",
+      "year"
+    ],
+    "W2d": [
+      "ginger",
+      "search",
+      "syntax"
+    ],
+    "W3a": [
+      "lane",
+      "year"
+    ],
+    "W4a": [
+      "ant",
+      "big",
+      "bus",
+      "car",
+      "has"
+    ]
+  },
+  {
+    "W1a": [
+      "big",
+      "bus",
+      "has"
+    ],
+    "W1d": [
+      "book",
+      "buys",
+      "hold"
+    ],
+    "W2d": [
+      "ginger",
+      "search",
+      "syntax"
+    ],
+    "W3a": [
+      "lane",
+      "year"
+    ],
+    "W4a": [
+      "ant",
+      "big",
+      "bus",
+      "car",
+      "has"
+    ]
+  },
+  {
+    "W1a": [
+      "big",
+      "bus",
+      "has"
+    ],
+    "W1d": [
+      "book",
+      "buys",
+      "hold"
+    ],
+    "W2d": [
+      "ginger",
+      "search",
+      "syntax"
+    ],
+    "W3a": [
+      "lane",
+      "year"
+    ],
+    "W4a": [
+      "ant",
+      "big",
+      "bus",
+      "car",
+      "has"
+    ]
+  },
+  {
+    "W1a": [
+      "big",
+      "bus",
+      "has"
+    ],
+    "W1d": [
+      "buys",
+      "hold"
+    ],
+    "W2d": [
+      "ginger",
+      "search",
+      "syntax"
+    ],
+    "W3a": [
+      "lane",
+      "year"
+    ],
+    "W4a": [
+      "ant",
+      "big",
+      "bus",
+      "car",
+      "has"
+    ]
+  },
+  {
+    "W1a": [
+      "big",
+      "bus",
+      "has"
+    ],
+    "W1d": [
+      "buys",
+      "hold"
+    ],
+    "W2d": [
+      "ginger",
+      "search",
+      "syntax"
+    ],
+    "W3a": [
+      "lane",
+      "year"
+    ],
+    "W4a": [
+      "ant",
+      "big",
+      "bus",
+      "car",
+      "has"
+    ]
+  },
+  {
+    "W1a": [
+      "big",
+      "bus",
+      "has"
+    ],
+    "W1d": [
+      "buys",
+      "hold"
+    ],
+    "W2d": [
+      "search",
+      "syntax"
+    ],
+    "W3a": [
+      "lane",
+      "year"
+    ],
+    "W4a": [
+      "ant",
+      "big",
+      "bus",
+      "car",
+      "has"
+    ]
+  },
+  {
+    "W1a": [
+      "big",
+      "bus",
+      "has"
+    ],
+    "W1d": [
+      "buys",
+      "hold"
+    ],
+    "W2d": [
+      "search",
+      "syntax"
+    ],
+    "W3a": [
+      "lane",
+      "year"
+    ],
+    "W4a": [
+      "ant",
+      "big",
+      "bus",
+      "car",
+      "has"
+    ]
+  },
+  {
+    "W1a": [
+      "bus",
+      "has"
+    ],
+    "W1d": [
+      "buys",
+      "hold"
+    ],
+    "W2d": [
+      "search",
+      "syntax"
+    ],
+    "W3a": [
+      "lane",
+      "year"
+    ],
+    "W4a": [
+      "ant",
+      "big",
+      "bus",
+      "car",
+      "has"
+    ]
+  },
+  {
+    "W1a": [
+      "bus",
+      "has"
+    ],
+    "W1d": [
+      "buys",
+      "hold"
+    ],
+    "W2d": [
+      "search",
+      "syntax"
+    ],
+    "W3a": [
+      "lane",
+      "year"
+    ],
+    "W4a": [
+      "ant",
+      "big",
+      "bus",
+      "car",
+      "has"
+    ]
+  }
+]
