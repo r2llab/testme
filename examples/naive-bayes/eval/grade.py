@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 import os
+import bz2
+import sys
 import json
 import itertools
 from argparse import ArgumentParser
@@ -14,18 +16,17 @@ args = parser.parse_args()
 
 
 res = []
-with open(os.path.join(args.doutput, 'output.json')) as f:
+with bz2.open(os.path.join(args.doutput, 'output.json.bz2')) as f:
     pred = json.load(f)
-with open(os.path.join(args.dgold, 'output.json')) as f:
+with bz2.open(os.path.join(args.dgold, 'test.json.bz2')) as f:
     gold = json.load(f)
 
 
-round = 0
+r = 0
 errors = []
 for p, g in itertools.zip_longest(pred, gold):
-    round += 1
     errors.append(dict(
-        round=round,
+        round=r,
         gold=g,
         pred=p,
         correct=g == p,
@@ -33,3 +34,4 @@ for p, g in itertools.zip_longest(pred, gold):
 
 with open(os.path.join(args.deval, 'eval.json'), 'wt') as f:
     json.dump(errors, f, indent=2)
+print(sum(e['correct'] for e in errors) / len(errors))

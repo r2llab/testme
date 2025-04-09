@@ -1,4 +1,4 @@
-# Graph Search
+# Decision Trees
 
 For this assignment, you will implement the AC3 algorithm for (binary) constraint satisfaction problems.
 
@@ -21,8 +21,6 @@ During evaluation, we will give your program different CSPs.
 ### Your submission program
 
 Please implement `myprogram.py`.
-The starter code runs each search algorithm (you have to implement them) and write out the variable domains after each round of CSP.
-Please use the provided data structures to help you implement AC3.
 
 Your submission must adhere to the [TestMe API](https://github.com/r2llab/testme).
 In addition, please include a file in your submission (e.g. `user.txt`) that contains your UserID.
