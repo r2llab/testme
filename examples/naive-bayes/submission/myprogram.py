@@ -70,6 +70,7 @@ if __name__ == '__main__':
     parser.add_argument('dinput', help='directory to input data')
     parser.add_argument('doutput', help='directory to output data')
     parser.add_argument('--train', action='store_true', help='train the model')
+    parser.add_argument('--dcheckpoint', help='directory to save checkpoint', default=os.getcwd())
     args = parser.parse_args()
 
     with bz2.open(os.path.join(args.dinput, 'stop_words.json.bz2'), 'rt') as f:
@@ -87,9 +88,9 @@ if __name__ == '__main__':
     if args.train:
         nb = NaiveBayes()
         nb.train(data['train'])
-        nb.save(args.doutput)
+        nb.save(args.dcheckpoint)
 
-    nb = NaiveBayes.load(args.doutput)
+    nb = NaiveBayes.load(args.dcheckpoint)
     pred = nb.predict(data['val'])
     correct = sum(p == ex['label'] for ex, p in zip(data['val'], pred))
     total = len(data["val"])

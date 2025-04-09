@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 import os
 import bz2
-import sys
 import json
 import itertools
 from argparse import ArgumentParser

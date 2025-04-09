@@ -21,6 +21,8 @@ During evaluation, we will give your program different test data.
 ### Your submission program
 
 Please implement `myprogram.py`.
+Remember to first train it using `--train` in order to create your model checkpoint.
+We will run your program durin evaluation without `--train`.
 
 Your submission must adhere to the [TestMe API](https://github.com/r2llab/testme).
 In addition, please include a file in your submission (e.g. `user.txt`) that contains your UserID.
