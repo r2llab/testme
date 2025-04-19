@@ -21,7 +21,7 @@ During evaluation, we will give your program different graphs and queries.
 ### Your submission program
 
 Please implement `myprogram.py`.
-The starter code runs each search algorithm (you have to implement them) and write out the path from source to goal found by the algorithm to the output directory.
+The starter code runs each search algorithm (you have to implement them) and write out the exploration order of the algorithm to the output directory.
 Please break ties using the provided `tie_break` function, which breaks ties alphabetically.
 To implement A* search, please use the provided `heuristic` function.
 
