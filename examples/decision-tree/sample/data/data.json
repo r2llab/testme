@@ -1,0 +1,164 @@
+[
+  {
+    "x": {
+      "author": true,
+      "thread_new": true,
+      "length_long": true,
+      "read_home": true
+    },
+    "y": false
+  },
+  {
+    "x": {
+      "author": false,
+      "thread_new": true,
+      "length_long": false,
+      "read_home": false
+    },
+    "y": true
+  },
+  {
+    "x": {
+      "author": false,
+      "thread_new": false,
+      "length_long": true,
+      "read_home": false
+    },
+    "y": false
+  },
+  {
+    "x": {
+      "author": true,
+      "thread_new": false,
+      "length_long": true,
+      "read_home": true
+    },
+    "y": false
+  },
+  {
+    "x": {
+      "author": true,
+      "thread_new": true,
+      "length_long": false,
+      "read_home": true
+    },
+    "y": true
+  },
+  {
+    "x": {
+      "author": true,
+      "thread_new": false,
+      "length_long": true,
+      "read_home": false
+    },
+    "y": false
+  },
+  {
+    "x": {
+      "author": false,
+      "thread_new": false,
+      "length_long": false,
+      "read_home": false
+    },
+    "y": false
+  },
+  {
+    "x": {
+      "author": false,
+      "thread_new": true,
+      "length_long": false,
+      "read_home": false
+    },
+    "y": true
+  },
+  {
+    "x": {
+      "author": true,
+      "thread_new": false,
+      "length_long": true,
+      "read_home": true
+    },
+    "y": false
+  },
+  {
+    "x": {
+      "author": true,
+      "thread_new": true,
+      "length_long": true,
+      "read_home": false
+    },
+    "y": false
+  },
+  {
+    "x": {
+      "author": false,
+      "thread_new": false,
+      "length_long": false,
+      "read_home": true
+    },
+    "y": false
+  },
+  {
+    "x": {
+      "author": true,
+      "thread_new": true,
+      "length_long": true,
+      "read_home": false
+    },
+    "y": false
+  },
+  {
+    "x": {
+      "author": true,
+      "thread_new": false,
+      "length_long": false,
+      "read_home": true
+    },
+    "y": true
+  },
+  {
+    "x": {
+      "author": true,
+      "thread_new": true,
+      "length_long": false,
+      "read_home": false
+    },
+    "y": true
+  },
+  {
+    "x": {
+      "author": true,
+      "thread_new": true,
+      "length_long": false,
+      "read_home": true
+    },
+    "y": true
+  },
+  {
+    "x": {
+      "author": true,
+      "thread_new": false,
+      "length_long": false,
+      "read_home": false
+    },
+    "y": true
+  },
+  {
+    "x": {
+      "author": true,
+      "thread_new": true,
+      "length_long": false,
+      "read_home": true
+    },
+    "y": true
+  },
+  {
+    "x": {
+      "author": false,
+      "thread_new": true,
+      "length_long": false,
+      "read_home": false
+    },
+    "y": true
+  }
+]

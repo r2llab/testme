@@ -1,0 +1,42 @@
+[
+  {
+    "x": {
+      "author": false,
+      "thread_new": true,
+      "length_long": true,
+      "read_home": false
+    }
+  },
+  {
+    "x": {
+      "author": true,
+      "thread_new": true,
+      "length_long": false,
+      "read_home": true
+    }
+  },
+  {
+    "x": {
+      "author": false,
+      "thread_new": false,
+      "length_long": false,
+      "read_home": false
+    }
+  },
+  {
+    "x": {
+      "author": false,
+      "thread_new": false,
+      "length_long": true,
+      "read_home": true
+    }
+  },
+  {
+    "x": {
+      "author": true,
+      "thread_new": false,
+      "length_long": false,
+      "read_home": true
+    }
+  }
+]
